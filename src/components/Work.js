@@ -62,7 +62,7 @@ const Work = () => {
               </div>
               <div className="portfolio-info">
                 <h5>Zoo App</h5>
-                <span>Project</span>
+                <span>Personal Project</span>
               </div>
               <a
                 className="link-overlay"
@@ -74,11 +74,24 @@ const Work = () => {
           <div className="grid-item product branding">
             <div className="portfolio-box-01">
               <div className="portfolio-img">
+                <img src="static/img/portfolio-4.jpg" alt="image" />
+              </div>
+              <div className="portfolio-info">
+                <h5>Countries App</h5>
+                <span>Personal Project</span>
+              </div>
+              <a className="link-overlay" href="#" />
+            </div>
+          </div>{" "}
+          {/* grid item */}
+          <div className="grid-item product branding">
+            <div className="portfolio-box-01">
+              <div className="portfolio-img">
                 <img src="static/img/portfolio-2.jpg" alt="image" />
               </div>
               <div className="portfolio-info">
                 <h5>Chat Chat App</h5>
-                <span>coming soon</span>
+                <span>Team Project</span>
               </div>
               <a className="link-overlay" href="#" />
             </div>
@@ -96,19 +109,6 @@ const Work = () => {
               <a className="link-overlay" href="#" />
             </div>
           </div>{" "}
-          {/* grid item */}
-          {/* <div className="grid-item product branding">
-            <div className="portfolio-box-01">
-              <div className="portfolio-img">
-                <img src="static/img/portfolio-4.jpg" alt="image" />
-              </div>
-              <div className="portfolio-info">
-                <h5>Our Photography</h5>
-                <span>Design</span>
-              </div>
-              <a className="link-overlay" href="#" />
-            </div>
-          </div>{" "} */}
           {/* grid item */}
           {/* <div className="grid-item product branding">
             <div className="portfolio-box-01">
