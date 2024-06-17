@@ -74,6 +74,22 @@ const Work = () => {
           <div className="grid-item product branding">
             <div className="portfolio-box-01">
               <div className="portfolio-img">
+                <img src="static/img/work3.png" alt="image" />
+              </div>
+              <div className="portfolio-info">
+                <h5>Typing Game</h5>
+                <span>AWS Elastic Beanstalk</span>
+              </div>
+              <a
+                className="link-overlay"
+                href="http://typinggame-env.eba-6pn6uv82.eu-central-1.elasticbeanstalk.com/"
+              />
+            </div>
+          </div>{" "}
+          {/* grid item */}
+          <div className="grid-item product branding">
+            <div className="portfolio-box-01">
+              <div className="portfolio-img">
                 <img src="static/img/portfolio-4.jpg" alt="image" />
               </div>
               <div className="portfolio-info">
