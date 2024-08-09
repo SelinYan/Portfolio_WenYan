@@ -39,13 +39,30 @@ const Work = () => {
       </div>
       <div className="container">
         <div className="portfolio-content lightbox-gallery">
+          {/* grid item */}
           <div className="grid-item product branding">
             <div className="portfolio-box-01">
               <div className="portfolio-img">
-                <img src="static/img/work1.png" alt="image" />
+                <img src="static/img/giphy.gif" alt="image" />
               </div>
               <div className="portfolio-info">
-                <h5>Digital Calendar</h5>
+                <h5>E-commerce</h5>
+                <span>WordPress Project</span>
+              </div>
+              <a
+                className="link-overlay"
+                href="https://c3uagfaa.c3.suncomet.fi/wp/home/"
+              />
+            </div>
+          </div>{" "}
+          {/* grid item */}
+          <div className="grid-item product branding">
+            <div className="portfolio-box-01">
+              <div className="portfolio-img">
+                <img src="static/img/giphy2.gif" alt="image" />
+              </div>
+              <div className="portfolio-info">
+                <h5>Digital Calendar Builder</h5>
                 <span>Team project</span>
               </div>
               <a
@@ -58,7 +75,7 @@ const Work = () => {
           <div className="grid-item product branding">
             <div className="portfolio-box-01">
               <div className="portfolio-img">
-                <img src="static/img/work2.png" alt="image" />
+                <img src="static/img/giphy1.gif" alt="image" />
               </div>
               <div className="portfolio-info">
                 <h5>Zoo App</h5>
@@ -71,7 +88,7 @@ const Work = () => {
             </div>
           </div>{" "}
           {/* grid item */}
-          <div className="grid-item product branding">
+          {/* <div className="grid-item product branding">
             <div className="portfolio-box-01">
               <div className="portfolio-img">
                 <img src="static/img/work3.png" alt="image" />
@@ -85,9 +102,9 @@ const Work = () => {
                 href="http://typinggame-env.eba-6pn6uv82.eu-central-1.elasticbeanstalk.com/"
               />
             </div>
-          </div>{" "}
+          </div>{" "} */}
           {/* grid item */}
-          <div className="grid-item product branding">
+          {/* <div className="grid-item product branding">
             <div className="portfolio-box-01">
               <div className="portfolio-img">
                 <img src="static/img/portfolio-4.jpg" alt="image" />
@@ -98,9 +115,9 @@ const Work = () => {
               </div>
               <a className="link-overlay" href="#" />
             </div>
-          </div>{" "}
+          </div>{" "} */}
           {/* grid item */}
-          <div className="grid-item product branding">
+          {/* <div className="grid-item product branding">
             <div className="portfolio-box-01">
               <div className="portfolio-img">
                 <img src="static/img/portfolio-2.jpg" alt="image" />
@@ -111,9 +128,9 @@ const Work = () => {
               </div>
               <a className="link-overlay" href="#" />
             </div>
-          </div>{" "}
+          </div>{" "} */}
           {/* grid item */}
-          <div className="grid-item product branding">
+          {/* <div className="grid-item product branding">
             <div className="portfolio-box-01">
               <div className="portfolio-img">
                 <img src="static/img/portfolio-3.jpg" alt="image" />
@@ -124,7 +141,7 @@ const Work = () => {
               </div>
               <a className="link-overlay" href="#" />
             </div>
-          </div>{" "}
+          </div>{" "} */}
           {/* grid item */}
           {/* <div className="grid-item product branding">
             <div className="portfolio-box-01">
