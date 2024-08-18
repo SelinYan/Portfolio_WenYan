@@ -7,7 +7,7 @@ const Services = () => {
             <div className="section-title">
               <h3 className="dark-color text-uppercase">My Services</h3>
               <p className="text-uppercase small">
-                A Full Stack Developer based in Finland
+                A UI/UX designer based in Finland
               </p>
             </div>
           </div>
@@ -20,10 +20,10 @@ const Services = () => {
                 <i className="icon-desktop" />
               </div>
               <div className="feature-content">
-                <h5>Unique design</h5>
+                <h5>User Research & Analysis</h5>
                 <p>
-                  Crafting bespoke designs that reflect your brand's identity
-                  and vision in a modern way.
+                  Conducting interviews, surveys, and usability tests to gather
+                  insights, information architecturing and user journey mapping.
                 </p>
               </div>
             </div>
@@ -36,10 +36,10 @@ const Services = () => {
                 <i className="icon-pricetags" />
               </div>
               <div className="feature-content">
-                <h5>Different Layout</h5>
+                <h5>User-Centered Design</h5>
                 <p>
-                  Offering diverse layout options tailored to your specific
-                  needs and preferences.
+                  Crafting designs that prioritize user needs and preferences.
+                  Utilizing user research and data to inform design decisions.
                 </p>
               </div>
             </div>
@@ -52,10 +52,10 @@ const Services = () => {
                 <i className="icon-chat" />
               </div>
               <div className="feature-content">
-                <h5>Make it Simple</h5>
+                <h5>Wireframing & Prototyping</h5>
                 <p>
-                  Creating intuitive and user-friendly interfaces that simplify
-                  navigation for seamless experiences.
+                  Implementing detailed wireframes and interactive prototypes to
+                  visualize and test design concepts before development.
                 </p>
               </div>
             </div>
@@ -68,10 +68,11 @@ const Services = () => {
                 <i className="icon-mobile" />
               </div>
               <div className="feature-content">
-                <h5>Responsiveness</h5>
+                <h5>Responsiveness & Accessibility</h5>
                 <p>
-                  Ensuring your site looks stunning and functions perfectly on
-                  mobile, tablet, or desktop.
+                  Designing interfaces that adapt smoothly to any device,
+                  ensuring consistent user experiences. Keep accessibility in
+                  mind.
                 </p>
               </div>
             </div>
@@ -84,10 +85,11 @@ const Services = () => {
                 <i className="icon-target" />
               </div>
               <div className="feature-content">
-                <h5>Testing for Perfection</h5>
+                <h5>Testing & Iteration</h5>
                 <p>
-                  Rigorously testing to deliver flawless and reliable
-                  performance, free from bugs and issues.
+                  Regularly testing designs with real users, refining them based
+                  on feedback, and incorporating trendy features for optimal
+                  results.
                 </p>
               </div>
             </div>
@@ -100,10 +102,10 @@ const Services = () => {
                 <i className="icon-tools-2" />
               </div>
               <div className="feature-content">
-                <h5>Advanced Options</h5>
+                <h5>Coding Knowledge</h5>
                 <p>
-                  Delivering cutting-edge features to elevate user engagement
-                  and provide an interactive experience.
+                  Coding fundamentals enhance my communication and collaboration
+                  with developers for problem-solving and project execution.
                 </p>
               </div>
             </div>

@@ -6013,12 +6013,13 @@ h6 {
 }
 .portfolio-content .grid-item {
   padding: 10px;
-  width: 33.3333333333%;
+  width: 50%;
   float: left;
+  box-sizing: border-box; 
 }
 @media (max-width: 991px) {
   .portfolio-content .grid-item {
-    width: 50%;
+    width: 100%;
   }
 }
 @media (max-width: 567px) {
@@ -6031,20 +6032,41 @@ h6 {
   position: relative;
   overflow: hidden;
   border-radius: 5px;
+  height: auto; 
 }
+
+.portfolio-box-01 .portfolio-img {
+  position: relative;
+  width: 100%;
+  height: 225px;/* Allow the image to scale proportionally */
+  overflow: hidden;
+}
+
+.portfolio-box-01 .portfolio-img img {
+  width: 100%;
+  height: 100%; /* Ensure the image fills the container height */
+  object-fit: cover; /* This will maintain the aspect ratio while covering the area */
+  display: block;
+}
+
 .portfolio-box-01 .link-overlay {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+  background: rgba(0, 0, 0, 0); /* Ensure overlay is fully transparent initially */
+  z-index: 3; /* Ensure it sits on top of the image */
+  pointer-events: auto;
 }
+
 .portfolio-box-01 img {
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: ease all 0.35s;
-  transition: ease all 0.35s;
+  width: 100%;
+  height: auto; /* Make sure the image maintains aspect ratio */
+  display: block; /* Prevent extra space below image */
+  transition: transform 0.35s ease;
 }
+
 .portfolio-box-01 .portfolio-info {
   position: absolute;
   top: 0;
@@ -6052,69 +6074,113 @@ h6 {
   right: 0;
   bottom: 0;
   background: rgba(9, 10, 12, 0.5);
-  -webkit-transition: ease all 0.35s;
-  transition: ease all 0.35s;
-  opacity: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -moz-flex-direction: column;
-  -ms-flex-direction: column;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-          flex-direction: column;
-  -moz-justify-content: center;
-  -ms-justify-content: center;
-  -webkit-box-pack: center;
-          justify-content: center;
-  -ms-flex-pack: center;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  -ms-flex-align: center;
-  -webkit-box-align: center;
-          align-items: center;
-}
-.portfolio-box-01 .portfolio-info h5 {
   color: #ffffff;
-  font-size: 25px;
-  font-weight: 600;
-  display: inline-block;
-  margin: 0 0 10px;
-  position: relative;
-  -webkit-transition: ease all 0.35s;
-  transition: ease all 0.35s;
-  left: -25px;
-}
-@media (max-width: 991px) {
-  .portfolio-box-01 .portfolio-info h5 {
-    font-size: 20px;
-  }
-}
-.portfolio-box-01 .portfolio-info span {
-  color: rgba(255, 255, 255, 0.8);
-  font-weight: 500;
-  padding: 2px 12px;
-  display: inline-block;
-  vertical-align: top;
-  font-size: 14px;
-  -webkit-transition: ease all 0.35s;
-  transition: ease all 0.35s;
-  position: relative;
-  left: -25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  z-index: 2; /* Ensure it appears above the image */
 }
 .portfolio-box-01:hover .portfolio-info {
   opacity: 1;
 }
-.portfolio-box-01:hover .portfolio-info h5 {
-  left: 0;
-}
+
+.portfolio-box-01:hover .portfolio-info h5,
 .portfolio-box-01:hover .portfolio-info span {
-  left: 0;
+  /* Adjustments for hover effects can be added here */
 }
-.portfolio-box-01:hover img {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+
+.portfolio-caption {
+  padding: 15px;
+  background: #f9f9f9; /* Adjust to fit your design */
+  border-radius: 5px;
+  margin-top: 10px;
 }
+
+/* Case Study Section
+------------------*/
+.case-study-content {
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
+  margin-bottom: 60px; /* Add margin to create space between sections */
+}
+
+.case-study-image {
+  padding: 15px;
+  flex: 0 0 50%; /* Ensure the image takes up 50% of the container */
+  max-height: 360px; /* Adjust as needed to ensure full image visibility */
+  border: 14px solid #ffffff; /* Border similar to About Me section */
+  border-radius: 5px; /* Rounded corners */
+  display: flex;
+  align-items: center; /* Center image vertically */
+  justify-content: center; /* Center image horizontally */
+  overflow: hidden; /* Hide overflow if image exceeds container size */
+  position: relative; /* For positioning child elements if needed */
+}
+
+.case-study-image img {
+  width: 100%; /* Ensure the image spans the full width of the container */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Ensure the entire image fits within the container */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.case-study-text {
+  padding: 15px;
+  flex: 0 0 50%; /* Ensure the text takes up 50% of the container */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align text to the top */
+}
+
+.case-study-text h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.case-study-text p.description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.case-study-text ul {
+  list-style-type: disc; /* Disc style for list items */
+  padding-left: 20px; /* Space between list marker and text */
+  margin: 0;
+}
+
+.case-study-text ul li {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.section-title {
+  text-align: left;
+  margin-bottom: 35px;
+}
+
+.section-title h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #333;
+}
+
+.section-title p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #777;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
 
 /* Testimonials
 ------------------*/

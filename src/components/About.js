@@ -7,7 +7,7 @@ const About = () => {
             <div className="section-title">
               <h3 className="dark-color text-uppercase">ABOUT ME</h3>
               <p className="text-uppercase small">
-                A Full Stack Developer based in Finland
+                A UI/UX designer based in Finland
               </p>
             </div>
           </div>
@@ -34,19 +34,20 @@ const About = () => {
           </div>
           <div className="col-lg-7 m-15px-tb">
             <div className="about-me">
-              <h4>I'M WEN YAN</h4>
               <h6>
-                A Full Stack <span className="theme-color">Developer</span>{" "}
-                based in <span className="theme-color">Finland</span>
+                I focus on blending{" "}
+                <span className="theme-color">research-driven</span> insights
+                with <span className="theme-color">creative design</span> to
+                solve real user problems.
               </h6>
               <p>
-                I love turning creative ideas into reality through code. From
-                building modern front-ends to robust back-ends, I enjoy every
-                step of the development process. Always eager to learn and
-                experiment with new technologies, I aim to keep my skills sharp
-                and stay ahead of the curve. Let's create something amazing!
-                Check out my Portfolio
+                My approach: I start with deep user research—conducting
+                interviews, surveys, and usability tests to uncover valuable
+                insights. These findings guide my design process, where I craft
+                wireframes, prototypes, and user flows that are both intuitive
+                and visually engaging.
               </p>
+              <p>Tools: Figma, Miro, Google.</p>
               <div className="row about-list">
                 <div className="col-md-6">
                   <div className="media">

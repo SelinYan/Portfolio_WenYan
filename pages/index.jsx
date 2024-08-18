@@ -2,6 +2,7 @@ import About from "@/src/components/About";
 import Contact from "@/src/components/Contact";
 import Skills from "@/src/components/Skills";
 import Testiminails from "@/src/components/Testiminails";
+import CaseStudy from "@/src/components/CaseStudy";
 import { wen } from "@/src/layouts/utils";
 import { Fragment, useEffect, useState } from "react";
 
@@ -94,9 +95,9 @@ const Index1 = () => {
                     I Am Passionate <TypingAnimation />
                   </h2>
                   <p>
-                    As an aspiring full-stack developer, I strive to enhance
-                    user engagement and satisfaction by developing comprehensive
-                    digital solutions.
+                    As a dedicated UI/UX designer, I aim to elevate user
+                    experiences and satisfaction by crafting intuitive and
+                    impactful digital designs.
                   </p>
                   <div className="btn-bar go-to">
                     <a className="m-btn m-btn-theme" href="#work">
@@ -125,7 +126,6 @@ const Index1 = () => {
           </div>
         </section>
         {/* End Home Banner */}
-
         {/* End Home Banner */}
         {/* about me */}
         <About />
@@ -139,8 +139,11 @@ const Index1 = () => {
         {/* Work */}
         <Work />
         {/* End work */}
+        {/* Case Study */}
+        <CaseStudy />
+        {/* End Case Study */}
         {/* Testiminails */}
-        {/* <Testiminails /> */}
+        <Testiminails />
         {/* End Testiminails */}
         {/* End Blog */}
         <Contact />

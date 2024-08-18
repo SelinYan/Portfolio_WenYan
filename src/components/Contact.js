@@ -56,7 +56,7 @@ const Contact = () => {
             <div className="section-title">
               <h3 className="dark-color text-uppercase">Get in touch</h3>
               <p className="text-uppercase small">
-                A Full Stack Developer based in Finland
+                A UI/UX designer based in Finland
               </p>
             </div>
           </div>

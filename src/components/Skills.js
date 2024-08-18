@@ -13,7 +13,7 @@ const Skills = () => {
             <div className="section-title">
               <h3 className="dark-color text-uppercase">My Skills</h3>
               <p className="text-uppercase small">
-                A Full Stack Developer based in Finland
+                A UI/UX designer based in Finland
               </p>
             </div>
           </div>
@@ -22,7 +22,7 @@ const Skills = () => {
           <div className="col-lg-6 m-15px-tb">
             {/* skill */}
             <div className="skill-lt">
-              <h6 className="dark-color">Frontend</h6>
+              <h6 className="dark-color">Research & Analysis</h6>
               <div className="skill-bar">
                 <div
                   className="skill-bar-in theme-bg"
@@ -37,30 +37,30 @@ const Skills = () => {
             {/* end skill */}
             {/* skill */}
             <div className="skill-lt">
-              <h6 className="dark-color">Backend</h6>
+              <h6 className="dark-color">Design & Prototyping</h6>
               <div className="skill-bar">
                 <div
                   className="skill-bar-in theme-bg"
                   role="progressbar"
-                  aria-valuenow={82}
+                  aria-valuenow={91}
                   aria-valuemin={0}
                   aria-valuemax={100}>
-                  <span>82%</span>
+                  <span>91%</span>
                 </div>
               </div>
             </div>
             {/* end skill */}
             {/* skill */}
             <div className="skill-lt">
-              <h6 className="dark-color">Data & Database</h6>
+              <h6 className="dark-color">Collaboration & Communication</h6>
               <div className="skill-bar">
                 <div
                   className="skill-bar-in theme-bg"
                   role="progressbar"
-                  aria-valuenow={80}
+                  aria-valuenow={88}
                   aria-valuemin={0}
                   aria-valuemax={100}>
-                  <span>80%</span>
+                  <span>88%</span>
                 </div>
               </div>
             </div>
@@ -68,7 +68,7 @@ const Skills = () => {
             {/* end skill */}
             {/* skill */}
             <div className="skill-lt">
-              <h6 className="dark-color">UI/UX & CI/CD</h6>
+              <h6 className="dark-color">Technical & Execution</h6>
               <div className="skill-bar">
                 <div
                   className="skill-bar-in theme-bg"
@@ -90,7 +90,7 @@ const Skills = () => {
                     <i className="fas fa-compact-disc" />
                   </div>
                   <div className="media-body">
-                    <h5>React, JS, HTML, CSS</h5>
+                    <h5>Figma, Adobe XD</h5>
                   </div>
                 </div>
               </div>
@@ -100,7 +100,7 @@ const Skills = () => {
                     <i className="fas fa-trophy" />
                   </div>
                   <div className="media-body">
-                    <h5>Node.js, Firebase</h5>
+                    <h5>UserTesting</h5>
                   </div>
                 </div>
               </div>
@@ -110,7 +110,7 @@ const Skills = () => {
                     <i className="fas fa-mug-hot" />
                   </div>
                   <div className="media-body">
-                    <h5>MySQL, PostgreSQL</h5>
+                    <h5>Google Analytics</h5>
                   </div>
                 </div>
               </div>
@@ -120,7 +120,7 @@ const Skills = () => {
                     <i className="fas fa-flag" />
                   </div>
                   <div className="media-body">
-                    <h5>Figma, MUI, AWS</h5>
+                    <h5>HTML, CSS, JS, React</h5>
                   </div>
                 </div>
               </div>
