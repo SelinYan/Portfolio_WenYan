@@ -24,15 +24,13 @@ const Testiminails = () => {
               </div>
               <div className="media-body p-25px-l">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam.
+                  The redesign by Wen transformed our mobile site and increased
+                  our user engagement. The improved user experience delivered a
+                  fantastic result. Highly recommended!
                 </p>
                 <div className="tc-info">
-                  <h6 className="font-alt dark-color font-w-600">
-                    Nancy Bayers
-                  </h6>
-                  <span>Co-founder</span>
+                  <h6 className="font-alt dark-color font-w-600">Kelly</h6>
+                  <span>Entrepreneur</span>
                 </div>
               </div>
             </div>
@@ -46,22 +44,20 @@ const Testiminails = () => {
               </div>
               <div className="media-body p-25px-l">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam.
+                  Working with Wen was a pleasure. She was great at planning and
+                  carrying out the design and development. It was awesome to
+                  team up with someone so skilled and dedicated.
                 </p>
                 <div className="tc-info">
-                  <h6 className="font-alt dark-color font-w-600">
-                    Nancy Bayers
-                  </h6>
-                  <span>Co-founder</span>
+                  <h6 className="font-alt dark-color font-w-600">Inna</h6>
+                  <span>Development Student</span>
                 </div>
               </div>
             </div>
           </SwiperSlide>
           {/* / */}
           {/* testimonials */}
-          <SwiperSlide className="testimonial-col-01">
+          {/* <SwiperSlide className="testimonial-col-01">
             <div className="media">
               <div className="img">
                 <img src="static/img/team-3.jpg" alt="image" />
@@ -80,10 +76,10 @@ const Testiminails = () => {
                 </div>
               </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
           {/* / */}
           {/* testimonials */}
-          <SwiperSlide className="testimonial-col-01">
+          {/* <SwiperSlide className="testimonial-col-01">
             <div className="media">
               <div className="img">
                 <img src="static/img/team-4.jpg" alt="image" />
@@ -102,7 +98,7 @@ const Testiminails = () => {
                 </div>
               </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
           {/* / */}
           <div className="owl-dots"></div>
         </Swiper>

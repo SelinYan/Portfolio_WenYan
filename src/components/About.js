@@ -81,7 +81,7 @@ const About = () => {
               <div className="btn-bar">
                 <a
                   className="m-btn m-btn-theme"
-                  href="/cv_Wen_Yan.pdf"
+                  href="/Wen Yan_CV.pdf"
                   download>
                   Download CV
                 </a>
