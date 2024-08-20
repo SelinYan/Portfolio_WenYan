@@ -47,7 +47,7 @@ const About = () => {
                 wireframes, prototypes, and user flows that are both intuitive
                 and visually engaging.
               </p>
-              <p>Tools: Figma, Miro, Google.</p>
+              <p>Tools: Figma, Miro, Trello, Google.</p>
               <div className="row about-list">
                 <div className="col-md-6">
                   <div className="media">
