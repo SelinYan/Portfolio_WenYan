@@ -46,7 +46,7 @@ const Work = () => {
                 <img src="static/img/momochi_ui.png" alt="image" />
               </div>
               <div className="portfolio-info">
-                <h5>Momochi UI/UX redesign</h5>
+                <h5>Momochi Mobile UI/UX Redesign</h5>
                 <span>Self-led Project</span>
               </div>
               <a
@@ -55,6 +55,9 @@ const Work = () => {
               />
             </div>
             <div className="portfolio-caption">
+              <h5>Momochi Mobile UI/UX Redesign </h5>
+              <span className="theme-color">Self-led Project</span>
+              <p></p>
               <p>
                 Enhancing user experience through research-driven UI/UX design
                 to fuel local business growth.
@@ -74,7 +77,7 @@ const Work = () => {
                 <img src="static/img/giphy3.gif" alt="image" />
               </div>
               <div className="portfolio-info">
-                <h5>Interactive Prototyping in Figma</h5>
+                <h5>Interactive Prototyping with Figma</h5>
                 <span>Self-led Project</span>
               </div>
               <a
@@ -83,6 +86,9 @@ const Work = () => {
               />
             </div>
             <div className="portfolio-caption">
+              <h5>Interactive Prototyping with Figma</h5>
+              <span className="theme-color">Self-led Project</span>
+              <p></p>
               <p>Showcasing user-centered design and interaction.</p>
               <p>
                 This project highlights my prototyping skills, showcasing user
@@ -100,8 +106,8 @@ const Work = () => {
                 <img src="static/img/giphy.gif" alt="image" />
               </div>
               <div className="portfolio-info">
-                <h5>Kid’s Toy E-Commerce Store</h5>
-                <span>WordPress Project</span>
+                <h5>Kid’s Toy E-Commerce Store with WordPress</h5>
+                <span>Self-led Project</span>
               </div>
               <a
                 className="link-overlay"
@@ -109,7 +115,10 @@ const Work = () => {
               />
             </div>
             <div className="portfolio-caption">
-              <p>Bright and accessible UI/UX design for online shopping</p>
+              <h5>Kid’s Toy E-Commerce Store with WordPress </h5>
+              <span className="theme-color">Self-led Project</span>
+              <p></p>
+              <p>Bright and accessible UI/UX design for online shopping.</p>
               <p>
                 For this e-commerce project, I designed and developed a
                 user-friendly online store using WordPress and WooCommerce. With
@@ -126,7 +135,7 @@ const Work = () => {
                 <img src="static/img/giphy2.gif" alt="image" />
               </div>
               <div className="portfolio-info">
-                <h5>Digital Calendar Builder</h5>
+                <h5>Digital Advent Calendar Builder with React.js</h5>
                 <span>Team project</span>
               </div>
               <a
@@ -135,13 +144,17 @@ const Work = () => {
               />
             </div>
             <div className="portfolio-caption">
-              <p>Collaborative project featuring full-stack development</p>
+              <h5>Digital Advent Calendar Builder with React.js</h5>
+              <span className="theme-color">Team project</span>
+              <p></p>
+              <p>Collaborative project featuring full-stack development.</p>
               <p>
                 In this small team project, I contributed as both UI/UX designer
                 and partial full-stack developer, building a customizable
-                digital calendar with React, Redux, CSS, and Firebase. The tool
-                enables users to create personalized calendars, merging
-                functionality with a delightful user experience.
+                digital advent calendar builder with React, Redux, CSS, Material
+                UI and Firebase. The tool enables users to create personalized
+                calendars, merging functionality with a delightful user
+                experience.
               </p>
             </div>
           </div>{" "}
@@ -152,7 +165,7 @@ const Work = () => {
                 <img src="static/img/giphy1.gif" alt="image" />
               </div>
               <div className="portfolio-info">
-                <h5>Zoo App</h5>
+                <h5>Zoo App with React & CSS</h5>
                 <span>School Coding Project</span>
               </div>
               <a
@@ -161,7 +174,12 @@ const Work = () => {
               />
             </div>
             <div className="portfolio-caption">
-              <p>React development for a simple and engaging user experience</p>
+              <h5>Zoo App with React & CSS</h5>
+              <span className="theme-color">School Coding Project</span>
+              <p></p>
+              <p>
+                React development for a simple and engaging user experience.
+              </p>
               <p>
                 This school project showcases my front-end development skills
                 through a React app that allows users to search for animals and

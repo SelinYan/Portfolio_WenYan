@@ -16,9 +16,9 @@ const CaseStudy = () => {
           <div className="col-md-6 case-study-image">
             <div className="image-wrapper">
               <img
-                src="static/img/catering.webp"
-                alt="Momochi Case Study"
-                style={{ maxHeight: 360, width: "100% ", objectFit: "cover" }}
+                src="static/img/phone1.png"
+                alt="Momochi UX Redesign Mockup"
+                style={{ maxHeight: 300, width: "100% ", objectFit: "cover" }}
               />
             </div>
           </div>
@@ -78,8 +78,11 @@ const CaseStudy = () => {
                 <br />
                 <span className="theme-color">1. Mobile Shopping Habits</span>:
                 all participants preferred mobile devices for online shopping,
-                but none had purchased from Momochi due to a lack of mobile
-                optimization.
+                but none had purchased from Momochi's website due to a lack of
+                mobile optimization and online ordering service. After analyzing
+                the user research and creating detailed User Personas, I found
+                that these issues were particularly pronounced, highlighting the
+                importance of a seamless mobile experience for our target users.
                 <br />
                 <span className="theme-color">
                   2. Interest in Mobile Ordering
@@ -103,7 +106,7 @@ const CaseStudy = () => {
             <div className="image-wrapper">
               <img
                 src="static/img/111.png"
-                alt="Additional Case Study Image"
+                alt="User Research with Google Forms 1"
                 style={{
                   maxHeight: 400,
                   width: "70%",
@@ -114,7 +117,7 @@ const CaseStudy = () => {
             <div className="image-wrapper">
               <img
                 src="static/img/110.png"
-                alt="Additional Case Study Image"
+                alt="User Research with Google Forms 2"
                 style={{
                   maxHeight: 400,
                   width: "70%",
@@ -130,7 +133,7 @@ const CaseStudy = () => {
           <div className="col-md-6 case-study-image">
             <div className="image-wrapper">
               <img
-                src="static/img/momochi_wall.jpg"
+                src="static/img/User Persona.png"
                 alt="Momochi Case Study"
                 style={{ maxHeight: 300, width: "100% ", objectFit: "cover" }}
               />
