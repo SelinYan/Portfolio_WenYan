@@ -42,9 +42,9 @@ const CaseStudy = () => {
               <li>
                 <strong>Objective:</strong> While placing an order for a party,
                 I saw firsthand how Momochi's website could be improved. My goal
-                was to dig into these user experience issues through research
-                and redesign the site to make online ordering easier and more
-                enjoyable, ultimately boosting the business.
+                was to dig into these user experience issues through research,
+                define users' goals and needs, and build design solutions based
+                on evidence, ultimately boosting the business.
               </li>
             </ul>
           </div>
@@ -58,45 +58,61 @@ const CaseStudy = () => {
             </p>
             <ul>
               <li>
-                <strong>Objective:</strong> Explore the behaviors, needs, and
-                pain points of Momochi’s website users to guide the redesign.
+                <strong>Objective:</strong> Explore the online shopping habits,
+                needs, motivation and pain points of current and potential
+                Momochi users to guide the redesign.
               </li>
               <li>
-                <strong>Tools Used:</strong> Google Forms
+                <strong>Tools Used:</strong> Instagram, Google Forms, Microsoft
+                Word, Teams. Will also conduct a follow-up survey after the
+                first iteration of the design.
               </li>
               <li>
-                <strong>Methods:</strong>
+                <strong>Methods: </strong>
                 <br />
-                <span className="theme-color">1. Surveys</span>: conducted via
-                Google Forms with existing and potential customers.
+                <span className="theme-color">1. Define Target User</span>:
+                Identify participants who are current or potential Momochi
+                users, aged 25-44, who shop online and follow Momochi on
+                Instagram. <br />
+                <span className="theme-color">
+                  2. Start with a brief using Microsoft Word
+                </span>
+                : Identify research goal, research questions, and research
+                methods. <br />
+                <span className="theme-color">3. Surveys</span>: Conducted
+                surveys via Google Forms.
                 <br />
-                <span className="theme-color">2. Participants</span>: age 25-35
-                who frequently shop online.
+                <span className="theme-color">4. Interviews</span>: Conducted
+                user interviews with video calls via Teams.
               </li>
               <li>
                 <strong>Key Findings:</strong>
                 <br />
                 <span className="theme-color">1. Mobile Shopping Habits</span>:
-                all participants preferred mobile devices for online shopping,
+                All participants preferred mobile devices for online shopping,
                 but none had purchased from Momochi's website due to a lack of
-                mobile optimization and online ordering service. After analyzing
-                the user research and creating detailed User Personas, I found
-                that these issues were particularly pronounced, highlighting the
-                importance of a seamless mobile experience for our target users.
+                mobile optimization and online ordering or catering service.
+                After analyzing the user research and creating detailed User
+                Personas, I found that these issues were particularly
+                pronounced, highlighting the importance of a seamless mobile
+                experience for our target users.
                 <br />
                 <span className="theme-color">
                   2. Interest in Mobile Ordering
                 </span>
-                : every participant was interested in ordering via mobile and
-                prioritized ease of navigation, clear product info, and simple
-                payment methods (Credit/Debit Cards, Apple Pay, Google Pay).
+                : Participant were interested in ordering from Momochi via
+                mobile and prioritized ease of navigation, clear product
+                information, flexible payment methods, and AI real-time
+                assistance.
                 <br />
                 <span className="theme-color">
                   3. Current Mobile Experience
                 </span>
-                : users found product info accessible but struggled with
-                ordering due to missing features like a product list, direct
-                chat support, and a streamlined checkout process.
+                : Users found product info accessible but struggled with
+                ordering due to missing features like a product list, allergenic
+                ingredients for each product, popularity and rankings, catering
+                options, a streamlined checkout process as well as direct chat
+                support.
               </li>
             </ul>
           </div>
@@ -125,6 +141,13 @@ const CaseStudy = () => {
                 }}
               />
             </div>
+            <div className="image-wrapper">
+              <img
+                src="static/img/User Persona.png"
+                alt="Momochi Case Study"
+                style={{ maxHeight: 300, width: "100% ", objectFit: "cover" }}
+              />
+            </div>
           </div>
         </div>
 
@@ -133,7 +156,7 @@ const CaseStudy = () => {
           <div className="col-md-6 case-study-image">
             <div className="image-wrapper">
               <img
-                src="static/img/User Persona.png"
+                src="static/img/persona1.png"
                 alt="Momochi Case Study"
                 style={{ maxHeight: 300, width: "100% ", objectFit: "cover" }}
               />
@@ -152,16 +175,16 @@ const CaseStudy = () => {
                 <strong>Success Metrics:</strong>
                 <br />
                 <span className="theme-color">1. Increased Mobile Orders</span>:
-                track the volume of mobile orders post-redesign.
+                Track the volume of mobile orders post-redesign.
                 <br />
                 <span className="theme-color">2. User Satisfaction</span>:
-                gather feedback through post-launch surveys.
+                Gather feedback through post-launch surveys.
                 <br />
                 <span className="theme-color">3. Navigation Efficiency</span>:
-                monitor metrics like time-on-task and drop-off rates.
+                Monitor metrics like time-on-task and drop-off rates.
                 <br />
                 <span className="theme-color">4. Mobile Traffic Growth</span>:
-                analyze increases in mobile user engagement and site access.
+                Analyze increases in mobile user engagement and site access.
               </li>
             </ul>
           </div>
@@ -182,19 +205,19 @@ const CaseStudy = () => {
                 <strong>Key Strategies:</strong>
                 <br />
                 <span className="theme-color">1. Mobile-First Design</span>:
-                ensure all redesign aspects prioritize mobile usability.
+                Ensure all redesign aspects prioritize mobile usability.
                 <br />
                 <span className="theme-color">2. Simplify Navigation</span>:
-                design an intuitive navigation structure for small screens.
+                Design an intuitive navigation structure for small screens.
                 <br />
                 <span className="theme-color">
                   3. Enhance Product Information
                 </span>
-                : make product details easily accessible and visually appealing
+                : Make product details easily accessible and visually appealing
                 on mobile devices.
                 <br />
                 <span className="theme-color">4. Integrate Key Features</span>:
-                add a product list and an improved checkout process.
+                Add a product list and an improved checkout process.
               </li>
             </ul>
           </div>
@@ -237,13 +260,13 @@ const CaseStudy = () => {
               <li>
                 <strong>Design Process:</strong>
                 <br />
-                <span className="theme-color">1. Wireframes</span>: created
+                <span className="theme-color">1. Wireframes</span>: Created
                 mobile-first wireframes focusing on simplicity.
                 <br />
-                <span className="theme-color">2. Prototypes</span>: developed
+                <span className="theme-color">2. Prototypes</span>: Developed
                 interactive prototypes to visualize the new ordering process.
                 <br />
-                <span className="theme-color">3. User Flows</span>: crafted
+                <span className="theme-color">3. User Flows</span>: Crafted
                 seamless flows from product selection to checkout.
                 <br />
                 <span className="theme-color">4. Tools</span>: Figma.
@@ -251,7 +274,7 @@ const CaseStudy = () => {
               <li>
                 <strong>Usability Testing:</strong>
                 <br />
-                <span className="theme-color">1. Participants</span>: same
+                <span className="theme-color">1. Participants</span>: Same
                 participants in user research.
                 <br />
                 <span className="theme-color">2. Outcomes</span>: Users reported
@@ -279,13 +302,13 @@ const CaseStudy = () => {
                   <br />
                   1. Increased Engagement
                 </span>
-                : higher user engagement and an increase in interest in online
+                : Higher user engagement and an increase in interest in online
                 orders.
                 <br />
                 <span className="theme-color">2. Enhanced User Experience</span>
-                : positive feedback highlighted improved user satisfaction.
+                : Positive feedback highlighted improved user satisfaction.
                 <br />
-                <span className="theme-color">3. Business Growth</span>: the
+                <span className="theme-color">3. Business Growth</span>: The
                 redesigned mobile site would become a preferred platform,
                 supporting overall business growth.
               </li>
@@ -323,11 +346,11 @@ const CaseStudy = () => {
               </li>
               <li>
                 <span className="theme-color">1. Mobile Optimization</span>:
-                reinforced the importance of a mobile-first approach.
+                Reinforced the importance of a mobile-first approach.
               </li>
               <li>
                 <span className="theme-color">2. User-Centered Design</span>:
-                focusing on user needs resulted in a design that aligned well
+                Focusing on user needs resulted in a design that aligned well
                 with business goals.
               </li>
               <li>
