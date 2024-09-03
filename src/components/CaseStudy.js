@@ -156,7 +156,7 @@ const CaseStudy = () => {
           <div className="col-md-6 case-study-image">
             <div className="image-wrapper">
               <img
-                src="static/img/persona1.png"
+                src="static/img/user flow.png"
                 alt="Momochi Case Study"
                 style={{ maxHeight: 300, width: "100% ", objectFit: "cover" }}
               />
