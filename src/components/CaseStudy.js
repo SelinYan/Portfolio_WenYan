@@ -119,9 +119,25 @@ const CaseStudy = () => {
           <div
             className="col-md-6 d-flex flex-column justify-content-between align-items-center"
             style={{ height: "100%" }}>
-            <div className="image-wrapper">
+            <div
+              className="image-wrapper"
+              style={{ paddingTop: "40px", paddingBottom: "40px" }}>
               <img
                 src="static/img/User Persona.png"
+                alt="Momochi Case Study"
+                style={{ maxHeight: 300, width: "100% ", objectFit: "cover" }}
+              />
+            </div>
+            <div className="image-wrapper" style={{ paddingBottom: "40px" }}>
+              <img
+                src="static/img/user flow.png"
+                alt="Momochi Case Study"
+                style={{ maxHeight: 300, width: "100% ", objectFit: "cover" }}
+              />
+            </div>
+            <div className="image-wrapper" style={{ paddingBottom: "40px" }}>
+              <img
+                src="static/img/User Journey Map.png"
                 alt="Momochi Case Study"
                 style={{ maxHeight: 300, width: "100% ", objectFit: "cover" }}
               />
