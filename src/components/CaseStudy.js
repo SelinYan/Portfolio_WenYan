@@ -121,28 +121,6 @@ const CaseStudy = () => {
             style={{ height: "100%" }}>
             <div className="image-wrapper">
               <img
-                src="static/img/111.png"
-                alt="User Research with Google Forms 1"
-                style={{
-                  maxHeight: 400,
-                  width: "70%",
-                  objectFit: "contain",
-                }}
-              />
-            </div>
-            <div className="image-wrapper">
-              <img
-                src="static/img/110.png"
-                alt="User Research with Google Forms 2"
-                style={{
-                  maxHeight: 400,
-                  width: "70%",
-                  objectFit: "contain",
-                }}
-              />
-            </div>
-            <div className="image-wrapper">
-              <img
                 src="static/img/User Persona.png"
                 alt="Momochi Case Study"
                 style={{ maxHeight: 300, width: "100% ", objectFit: "cover" }}
