@@ -59,60 +59,55 @@ const CaseStudy = () => {
             <ul>
               <li>
                 <strong>Objective:</strong> Explore the online shopping habits,
-                needs, motivation and pain points of current and potential
-                Momochi users to guide the redesign.
+                needs, motivation and pain points of current Momochi users to
+                guide the redesign.
               </li>
               <li>
-                <strong>Tools Used:</strong> Instagram, Google Forms, Microsoft
-                Word, Teams. Will also conduct a follow-up survey after the
-                first iteration of the design.
+                <strong>Tools Used:</strong> Instagram, Microsoft Word, Teams,
+                Figma, Google Forms.
               </li>
               <li>
                 <strong>Methods: </strong>
                 <br />
                 <span className="theme-color">1. Define Target User</span>:
-                Identify participants who are current or potential Momochi
-                users, aged 25-44, who shop online and follow Momochi on
-                Instagram. <br />
+                Identify participants who are current Momochi users, aged 25-44,
+                who shop online and follow Momochi on Instagram. <br />
                 <span className="theme-color">
                   2. Start with a brief using Microsoft Word
                 </span>
                 : Identify research goal, research questions, and research
                 methods. <br />
-                <span className="theme-color">3. Surveys</span>: Conducted
-                surveys via Google Forms.
-                <br />
-                <span className="theme-color">4. Interviews</span>: Conducted
+                <span className="theme-color">3. Interviews</span>: Conducted
                 user interviews with video calls via Teams.
+                <br />
+                <span className="theme-color">4. Analysis and Creation</span>:
+                Based on the colleted data, created User Persona, User Flow,
+                User Journey Map via Figma.
               </li>
               <li>
                 <strong>Key Findings:</strong>
                 <br />
-                <span className="theme-color">1. Mobile Shopping Habits</span>:
-                All participants preferred mobile devices for online shopping,
-                but none had purchased from Momochi's website due to a lack of
-                mobile optimization and online ordering or catering service.
-                After analyzing the user research and creating detailed User
-                Personas, I found that these issues were particularly
-                pronounced, highlighting the importance of a seamless mobile
-                experience for our target users.
+                <span className="theme-color">
+                  1. How users purchase Momochi
+                </span>
+                :
+                <br />
+                A. Order online + Pay in-store = Bad experience
+                <br />
+                B. Order & Pay in-store = Bad experience
                 <br />
                 <span className="theme-color">
-                  2. Interest in Mobile Ordering
+                  2. What users want from Momochi Mobile Ordering
                 </span>
-                : Participant were interested in ordering from Momochi via
-                mobile and prioritized ease of navigation, clear product
-                information, flexible payment methods, and AI real-time
-                assistance.
+                : <br />
+                A. Simple navigation <br />
+                B. Clear product info, especially allergens details <br />
+                C. Product popularity ratings
+                <br /> D. Easy checkout with flexible payment options
+                <br /> E. AI real-time support
                 <br />
-                <span className="theme-color">
-                  3. Current Mobile Experience
-                </span>
-                : Users found product info accessible but struggled with
-                ordering due to missing features like a product list, allergenic
-                ingredients for each product, popularity and rankings, catering
-                options, a streamlined checkout process as well as direct chat
-                support.
+                F. Register & Login page to track order details and purchase
+                history
               </li>
             </ul>
           </div>
