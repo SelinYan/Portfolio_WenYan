@@ -69,23 +69,27 @@ const CaseStudy = () => {
               <li>
                 <strong>Methods: </strong>
                 <br />
-                <span className="theme-color">1. Define Target User</span>:
-                Identify participants who are current Momochi users, aged 25-44,
-                who shop online and follow Momochi on Instagram. <br />
+                <span className="theme-color">
+                  1. Define Target User on Instagram
+                </span>
+                : Identify participants who are current Momochi users, aged
+                25-44, who shop online and follow Momochi. <br />
                 <span className="theme-color">
                   2. Start with a brief using Microsoft Word
                 </span>
                 : Identify research goal, research questions, and research
                 methods. <br />
-                <span className="theme-color">3. Interviews</span>: Conducted
-                user interviews with video calls via Teams.
+                <span className="theme-color">3. Interviews via Teams</span>:
+                Conducted user interviews with video calls.
                 <br />
-                <span className="theme-color">4. Analysis and Creation</span>:
-                Based on the colleted data, created User Persona, User Flow,
-                User Journey Map via Figma.
+                <span className="theme-color">
+                  4. Analysis and Creation via Figma
+                </span>
+                : Based on the colleted data, created User Persona, User Flow,
+                User Journey Map.
               </li>
               <li>
-                <strong>Key Findings:</strong>
+                <strong>Key insights:</strong>
                 <br />
                 <span className="theme-color">
                   1. How users purchase Momochi
@@ -100,14 +104,18 @@ const CaseStudy = () => {
                   2. What users want from Momochi Mobile Ordering
                 </span>
                 : <br />
-                A. Simple navigation <br />
+                A. Simple and quick navigation <br />
                 B. Clear product info, especially allergens details <br />
                 C. Product popularity ratings
                 <br /> D. Easy checkout with flexible payment options
-                <br /> E. AI real-time support
+                <br /> E. Customer service support
                 <br />
-                F. Register & Login page to track order details and purchase
-                history
+                F. Track order details and purchase history
+                <br />
+                G. Direct access to catering service
+                <br />
+                H. Intuitive and visually appealing design <br />
+                I. Smooth user experience
               </li>
             </ul>
           </div>
@@ -145,7 +153,7 @@ const CaseStudy = () => {
           <div className="col-md-6 case-study-image">
             <div className="image-wrapper">
               <img
-                src="static/img/user flow.png"
+                src="static/img/before.png"
                 alt="Momochi Case Study"
                 style={{ maxHeight: 300, width: "100% ", objectFit: "cover" }}
               />
